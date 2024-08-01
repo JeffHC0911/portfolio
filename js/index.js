@@ -43,7 +43,7 @@ function generateProjectsCard(projects) {
 
 async function fetchData() {
   try {
-    const response = await fetch("/data/projects.json");
+    const response = await fetch("https://raw.githubusercontent.com/JeffHC0911/portfolio/main/data/projects.json");
     const data = await response.json();
     const projectsCards = generateProjectsCard(data);
     document.getElementById("projects-container").innerHTML = projectsCards;
