@@ -2,13 +2,13 @@
     {
         "name": "Weather App",
         "description": "Aplicación para revisión del clima en diferentes ciudades del mundo.",
-        "image": "https://github.com/JeffHC0911/portfolio/blob/main/assets/img/weather_app.png",
+        "image": "https://raw.githubusercontent.com/JeffHC0911/portfolio/main/assets/img/weather_app.png",
         "url": "https://jeffhc0911.github.io/Weather_App/"
     },
     {
         "name": "Education Software App (En proceso)",
         "description": "Aplicativo para que los docentes registren las notas de sus estudiantes (Puede ver el github)",
-        "image": "https://github.com/JeffHC0911/portfolio/blob/main/assets/img/education_software_project.png",
+        "image": "https://raw.githubusercontent.com/JeffHC0911/portfolio/main/assets/img/education_software_project.png",
         "url": "https://github.com/JeffHC0911/education-software-frontend"
     }
 
