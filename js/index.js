@@ -32,7 +32,7 @@ function generateProjectsCard(projects) {
       '" target="_blank" class="project-btn">Ver proyecto</a>';
     html += "</div>";
     html += '<div class="content">';
-    html += '<h2 class="heading">' + project.name + "</h2>";
+    html += '<h2 class="heading">' + '<b>' + project.name + '</b>' + "</h2>";
     html += '<p class="project-description">' + project.description + "</p>";
     html += "</div>";
     html += "</div>";
@@ -44,6 +44,7 @@ function generateProjectsCard(projects) {
 async function fetchData() {
   try {
     const response = await fetch("https://raw.githubusercontent.com/JeffHC0911/portfolio/main/data/projects.json");
+    //const response = await fetch("./data/projects.json");
     const data = await response.json();
     const projectsCards = generateProjectsCard(data);
     document.getElementById("projects-container").innerHTML = projectsCards;
@@ -87,12 +88,6 @@ function calculateAge(birthDate) {
   }
   return age;
 }
-
-document.addEventListener("DOMContentLoaded", (event) => {
-  const birthDate = "2001-04-09";
-  const age = calculateAge(birthDate);
-  document.getElementById("age").textContent = age;
-});
 
 const skills = [
   {

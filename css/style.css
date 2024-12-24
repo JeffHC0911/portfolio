@@ -337,9 +337,18 @@ footer {
 
 .card-project img {
   width: 100%;
-  height: auto;
+  height: 200px; /* Altura fija para todas las imágenes */
+  object-fit: cover; /* Mantiene la proporción y cubre el espacio */
+  object-position: center; /* Centra la imagen */
   border-bottom: 1px solid #ddd;
+  transition: transform 0.3s ease; /* Suave transición para el efecto hover */
 }
+
+/* Opcional: efecto hover en la imagen */
+.card-project:hover img {
+  transform: scale(1.05);
+}
+
 
 .card-project .content {
   padding: 15px;
@@ -359,13 +368,14 @@ footer {
 
 .project-btn {
   display: inline-block;
-  padding: 20px 15px;
-  margin-top: 10px;
-  background-color: #007bff;
+  padding: 1rem 2rem;
+  margin: 1.5rem auto;
+  background-color: #0A6EBD;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
-  font-size: medium;
+  font-size: 1.6rem;
+  transition: background-color 0.3s ease;
 }
 
 .project-btn:hover {

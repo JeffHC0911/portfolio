@@ -10,6 +10,18 @@
         "description": "Aplicativo para que los docentes registren las notas de sus estudiantes (Puede ver el github)",
         "image": "https://raw.githubusercontent.com/JeffHC0911/portfolio/main/assets/img/education_software_project.png",
         "url": "https://github.com/JeffHC0911/education-software-frontend"
+    },
+    {
+        "name": "PLANUC",
+        "description": "App para la gestión de horarios de los estudiantes de la Universidad de Caldas",
+        "image": "https://raw.githubusercontent.com/JeffHC0911/portfolio/main/assets/img/planuc.jpeg",
+        "url": "https://github.com/JeffHC0911/PLANUC_SoftwareIII"
+    },
+    {
+        "name": "Bomberman",
+        "description": "Juego de bomberman en el que se utilizan diferentes algoritmos para que este sea inteligente y tome sus propias decisiones.",
+        "image": "https://raw.githubusercontent.com/JeffHC0911/portfolio/main/assets/img/bomberman.png",
+        "url": "https://github.com/JeffHC0911/Bomberman_Project-Inteligente_I"
     }
 
 ]
